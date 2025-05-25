@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "chat-fast-api"
+version = "0.1.0"
+description = ""
+authors = ["Eugen97 <slavsep97@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+poetry-core = "^2.1.3"
+fastapi = "^0.115.12"
+uvicorn = {extras = ["all"], version = "^0.34.2"}
+pytest = "^8.3.5"
+faker = "^37.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
